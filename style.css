@@ -1,0 +1,110 @@
+/*global*/
+*{
+    background-color: #d3d3d3;
+    font-family: Arial,sans-serif;
+    margin:0;
+    padding:0;
+}
+/*my message*/
+.message-mine{
+    background-color: white;
+    color:black;
+    font-size: medium;
+    width: 80%
+    margin-bottom:8px;
+    padding: 16px;
+    font-size: larger;
+    font-style: normal;
+    margin-left: 17.5%
+   
+}
+/*the other person's message*/
+.message-yours{
+    background-color: white;
+    color:black;
+    font-size: medium;
+    width: 80%
+    margin-bottom:8px;
+    padding: 16px;
+    font-size: larger;
+    font-style: normal;
+    margin-left: 2.5%;
+    margin-bottom: 8px;
+   
+}
+/*app bar*/
+.app-bar{
+    background-color: lightpink;
+    color:black;
+}
+/*tab bar*/
+#tab-bar{
+    color:black;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+/*time to left*/
+ttl{
+    text-transform: initial;
+    font-size: larger;
+}
+/*channel list*/
+li{
+    background-color: white;
+    padding:16px;
+    line-height:16px;
+    border-top:1px solid lightgray;
+    /*overall tile height is 49px*/
+}
+/*for deleting bullet points or numbers*/
+ul{
+ list-style-type: none;   
+}
+/*hyperlinks for threewords locations*/
+a{
+    color: blue;
+    text-transform: uppercase;
+}
+.message-button{
+    background-color:#CDDC39;
+    color:black;
+    text-transform:uppercase;
+    width:38px;
+    height:13px;
+}
+/*It's for making text uppercase as it didn't apply*/
+button{
+    text-transform:uppercase;
+}
+/*Three each tab bar buttons*/
+.tab-bar-button{
+    background-color:white;
+    border:none;
+    font-size: 13px;
+    height:72px;
+    width:29% 
+
+}
+/*highliting "new" button*/
+.selected{
+    color:red;
+    background-color:white;
+    border-top:4px;
+    border-bottom: 4px;
+}
+/*arrange star images to middle*/
+ul img{
+vertical-align: middle;
+}
+/**duck image and 사립.개별.상징 background color*/
+h1 img, h2 a{
+    background-color:lightpink;
+}
+/*making text background white*/
+p small{
+    background-color:white;
+}
+div button{
+    background-color: #CDDC39;
+}
